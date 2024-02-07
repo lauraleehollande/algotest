@@ -1,12 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Game CYOA</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    
-</body>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Adventure Title</h1>
+
+      <div id="chapter1" class="chapter">
+        <h2>Chapter 1 (<!--Put whatever you want-->)</h2>
+        <p>
+          Begin of adventure. Which path will you take? (<!--Placeholder-->)
+        </p>
+
+        <div class="options">
+          <a href="#chapter2a" class="option">Take the left path</a>
+          <a href="#chapter2b" class="option">Take the right path</a>
+        </div>
+      </div>
+
+      <div id="chapter2a" class="chapter">
+        <h2>Chapter 2a: Left Path</h2>
+        <p>You chose the left path.</p>
+        <p><!--Placeholder--></p>
+
+        <div class="options">
+          <a href="#chapter3a" class="option">Continue</a>
+        </div>
+      </div>
+
+      <div id="chapter2b" class="chapter">
+        <h2>Chapter 2b: Right Path</h2>
+        <p>You chose the right path.</p>
+        <p><!--Placeholder--></p>
+
+        <div class="options">
+          <a href="#chapter3b" class="option">Continue</a>
+        </div>
+      </div>
+    </div>
+    <script src="chapter.js"></script>
+  </body>
 </html>
