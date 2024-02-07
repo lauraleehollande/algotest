@@ -19,3 +19,18 @@ links.forEach((link) => {
     }
   });
 });
+
+
+var introElement = document.getElementById('Intro');
+
+// Function to hide the introduction
+function hideIntroduction() {
+  introElement.style.display = 'none';
+}
+
+// Attach an event listener to the body element to listen for clicks on any choice
+document.body.addEventListener('click', function (event) {
+  if (event.target.classList.contains('option') && event.target.getAttribute('href') === '#chapter2a' || '#chapter2b') {
+    hideIntroduction();
+  }
+});
