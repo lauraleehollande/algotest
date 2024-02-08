@@ -1,3 +1,3 @@
-# CYOA (placeholder name put the name for the game)
+# The Gatekeepers of Eldoria 
 
-Story and game created by our team.
+You encounter a mystical gate and the fate of Eldoria depends on your choices.
