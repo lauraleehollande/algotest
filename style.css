@@ -3,19 +3,33 @@ body {
     padding: 0;
 }
 
-body {
-    font-family: Arial, sans-serif;
+
+.container{
+    background-image: url('images/Unknown-2.jpg');
+    background-size: cover; /* or 'contain' depending on your preference */
+    background-repeat: no-repeat;
+    background-position: center center;
+    margin: 0; /* Remove default body margin */
+    padding: 0; /* Remove default body padding */
+    height: 70vh; /* Ensure the background covers the entire viewport height */
+    background-color: rgba(0, 0, 0, 0);
 }
+
+
 
 .container {
     max-width: 600px;
     margin: 0 auto;
     padding: 20px;
+    font-family: Arial, sans-serif;
+    color: #fff;
 }
 
 h1, h2 {
     text-align: center;
 }
+
+
 
 p {
     line-height: 1.6;
