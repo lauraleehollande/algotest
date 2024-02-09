@@ -4,8 +4,16 @@ body {
     padding: 0;
 }
 
+h1, h2 {
+    text-align: center;
+}
 
-.container{
+p {
+    line-height: 1.6;
+    /* background-color: rgb(20, 40, 20); */
+}
+
+.container {
     background-image: url('images/Unknown-2.jpg');
     background-size: cover;
     background-repeat: no-repeat;
@@ -16,22 +24,12 @@ body {
     background-color: rgba(0, 0, 0, 0);
 }
 
-
-
 .container {
     max-width: 600px;
     margin: 0 auto;
     padding: 20px;
     font-family: Arial, sans-serif;
     color: #fff;
-}
-
-h1, h2 {
-    text-align: center;
-}
-    
-p {
-    line-height: 1.6;
 }
 
 .options {
