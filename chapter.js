@@ -34,3 +34,8 @@ document.body.addEventListener('click', function (event) {
     hideIntroduction();
   }
 });
+
+document.getElementById('chapter1').addEventListener('click', function() {
+  var audio = document.getElementById('audio');
+  audio.play();
+});
