@@ -1,4 +1,5 @@
 body {
+    background-color: black;
     margin: 0;
     padding: 0;
 }
@@ -6,12 +7,12 @@ body {
 
 .container{
     background-image: url('images/Unknown-2.jpg');
-    background-size: cover; /* or 'contain' depending on your preference */
+    background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
-    margin: 0; /* Remove default body margin */
-    padding: 0; /* Remove default body padding */
-    height: 70vh; /* Ensure the background covers the entire viewport height */
+    margin: 0;
+    padding: 0;
+    height: 70vh;
     background-color: rgba(0, 0, 0, 0);
 }
 
